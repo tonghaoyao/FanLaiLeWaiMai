@@ -7,8 +7,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;图片资源是从网上博客以及其他开源项目里提取出来的，如果有侵权，请联系我删除，谢谢！
 ## 运行截图 ##
 <a href="http://siqigege.web3v.com/fanlaile/art/截图1.gif">截图1</a>
-![截图2](http://siqigege.web3v.com/fanlaile/art/截图2.gif)
-![截图3](http://siqigege.web3v.com/fanlaile/art/截图3.gif)
+<a href="http://siqigege.web3v.com/fanlaile/art/截图2.gif">截图2</a>
+<a href="http://siqigege.web3v.com/fanlaile/art/截图3.gif">截图3</a>
 ## 第三方库 ##
 <table>
 <thead>
