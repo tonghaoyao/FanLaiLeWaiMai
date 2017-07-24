@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lv_user"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:background="@drawable/me_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tv_user_name"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:text="收货人:四七哥哥"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/tv_user_phone_num"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:text="15874085424"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/tv_user_address"
+            android:textSize="15dp"
+            android:text="收货地址:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_gravity="center"
+
+        android:background="@drawable/wallet_base_right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

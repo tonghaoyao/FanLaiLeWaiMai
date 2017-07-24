@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EAEAEA">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:scrollbars="none"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:id="@+id/rl_log_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/imgBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/me_setting" />
+
+            <LinearLayout
+                android:id="@+id/id_linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutMe1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl_my_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/color_White"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/me_address"
+                        android:id="@+id/iv_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:text="我的送餐地址"
+                        android:id="@+id/tv_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/iv_address"
+                        android:layout_toRightOf="@+id/iv_address"
+                        android:gravity="center"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/tvMe"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/wallet_base_right_arrow" />
+
+
+                </RelativeLayout>
+
+                <include layout="@layout/list_view_line"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_about_our"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/color_White"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/about_our"
+                        android:id="@+id/iv_about_ours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:text="关注饭来了"
+                        android:id="@+id/tv_about_ours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/iv_about_ours"
+                        android:layout_toRightOf="@+id/iv_about_ours"
+                        android:gravity="center"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/tvMe"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/wallet_base_right_arrow" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_join_our"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/color_White"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/about_our"
+                        android:id="@+id/iv_join_ours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:text="加入我们"
+                        android:id="@+id/tv_join_ours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/iv_join_ours"
+                        android:layout_toRightOf="@+id/iv_join_ours"
+                        android:gravity="center"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/tvMe"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/wallet_base_right_arrow" />
+
+
+                </RelativeLayout>
+
+                <include layout="@layout/list_view_line"/>
+
+                <include
+                    android:id="@+id/rl_callphone"
+                    layout="@layout/list_callphone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutMe1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/home_search"
+                android:gravity="center"
+                android:weightSum="1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <Button
+                    android:id="@+id/btnMe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imgBtn"
+                    android:layout_alignStart="@+id/imgBtn"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/me_btn"
+                    android:text="添加用户数据"
+                    android:textColor="#FF4040"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

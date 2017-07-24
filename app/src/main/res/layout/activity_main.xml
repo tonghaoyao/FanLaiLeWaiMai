@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fanlaile.fanlailewaimai.app.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></FrameLayout>
+
+    <RadioGroup
+        android:background="#20000000"
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/botttom_tag_style"
+            android:background="@null"
+            android:drawableTop="@drawable/rb_home_selector"
+            android:text="首页" />
+
+        <RadioButton
+            android:background="@null"
+            android:id="@+id/rb_order"
+            style="@style/botttom_tag_style"
+            android:drawableTop="@drawable/rb_order_selector"
+            android:text="订单" />
+
+        <RadioButton
+            android:background="@null"
+            android:id="@+id/rb_user"
+            style="@style/botttom_tag_style"
+            android:drawableTop="@drawable/rb_user_selector"
+            android:text="我的" />
+
+    </RadioGroup>
+</LinearLayout>
+

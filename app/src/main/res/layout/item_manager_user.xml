@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="童浩瑶"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_user_phone_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:layout_marginRight="20dp"
+            android:text="15874085424"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_user_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_margin="5dp"
+            android:text="湖南警察学院 5栋210" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_columnSpan="2"
+            android:orientation="horizontal"
+            android:gravity="right"
+            >
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/btn_update"
+                android:text="编辑" />
+
+            <Button
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/btn_delete"
+                android:text="删除" />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#aa000000" />
+</LinearLayout>

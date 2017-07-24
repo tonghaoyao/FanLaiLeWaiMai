@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA">
+
+
+    <ImageView
+        android:id="@+id/ivDingdan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/prompt_login" />
+
+    <TextView
+        android:id="@+id/tvDingdan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivDingdan1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="您还没有添加用户信息" />
+
+    <Button
+        android:id="@+id/btnDingdan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDingdan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/recommend_bg2"
+        android:text="   添加用户信息   "
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
