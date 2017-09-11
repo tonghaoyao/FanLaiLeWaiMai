@@ -6,9 +6,9 @@
 目前还有一些小功能还没做完，但整体流程已经差不多了，现在我整理了下代码，分享出来，如果你觉得对你有帮助，请打个star鼓励一下我吧！<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;图片资源是从网上博客以及其他开源项目里提取出来的，如果有侵权，请联系我删除，谢谢！
 ## 运行截图 ##
-<a href="http://siqigege.web3v.com/fanlaile/art/截图1.gif" target="_blank">截图1</a>
-<a href="http://siqigege.web3v.com/fanlaile/art/截图2.gif" target="_parent">截图2</a>
-<a href="http://siqigege.web3v.com/fanlaile/art/截图3.gif" target="_self">截图3</a>
+<img src="截图1.gif" width="360" height="640" alt="截图1" />
+<img src="截图2.gif" width="360" height="640" alt="截图1" />
+<img src="截图3.gif" width="360" height="640" alt="截图1" />
 ## 第三方库 ##
 <table>
 <thead>
